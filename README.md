@@ -1,8 +1,23 @@
+
 # Shared Spaces
 
 [![Shared Spaces video](http://img.youtube.com/vi/td8dQxZY9OI/maxresdefault.jpg)](http://www.youtube.com/watch?v=td8dQxZY9OI "Shared Spaces | Oculus Multiplayer Sample")
 
 SharedSpaces was built by the VR Developer Tools team to demonstrate how you can quickly get people together in VR using the Oculus Social Platform APIs. This version was built for the Unreal Engine using the Photon SDK as the transport layer. Check out this [YouTube video](http://www.youtube.com/watch?v=td8dQxZY9OI "Shared Spaces | Oculus Multiplayer Sample") showing the demo.
+
+## 18 May 2022 Update
+
+For the original SharedSpaces for UE4, we created a new plugin, *Plugin/OculusPlatform*, to expose the
+new OVR Platform APIs that we needed, in particular the group presence ones.  Instead of using both
+the old Oculus OSS and the new plugin, we just moved everything that we needed into the new plugin.
+
+In this update, the plugin has been renamed *Plugin/OVRPlatform* and now covers all OVR Platform APIs.
+A key feature of this plugin is that it is codegened, which means that it will be kept in sync with the
+OVR Platform.  That was not possible with the older Oculus OSS, has it required manual adaptation of
+UE4 OSS to Oculus VR Platform services.  We are planning on releasing it as an engine level plugin in
+the near future.
+
+SharedSpaces is available on the [Quest AppLab](https://www.oculus.com/experiences/quest/4540942155998634).
 
 ## Documentation
 
@@ -11,7 +26,7 @@ To [visualize](./Documentation/Media/markdown_extension.png) markdown files in V
 
 
 1. [SharedSpaces project](./Documentation/SharedSpaces.md "SharedSpaces documentation")
-2. [Oculus Platform plugin](./Plugins/OculusPlatform/Documentation/OculusPlatform.md)
+2. [OVRPlatform plugin](./Plugins/OVRPlatform/Documentation/OVRPlatform.md)
 3. [Photon plugin](./Plugins/PhotonNetDriver/Documentation/PhotonNetDriver.md)
 
 Details on how to setup the project can be found under [Oculus Application Configuration](./Documentation/SharedSpaces.md#d-oculus-application-configuration).
