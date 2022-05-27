@@ -1,2 +1,2 @@
-1. Add variable LocalCharacterModel to the GameInstance blueprint
-2. Add ShowSelectScreen and HideSelectScreen (ExtendedSharedSpacesCharacter) to the level blueprint (on trigger enter and exit)
+1. in the Project Settings - Change GameMode and Game instance to "Extended" equivalents
+2. Add ShowSelectScreen and HideSelectScreen (ExtendedSharedSpacesCharacter) to the level blueprint (on trigger begin overlap and end overlap)
