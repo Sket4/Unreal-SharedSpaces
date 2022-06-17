@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "v28.1",
+	"FriendlyName": "OculusPlatformBP",
+	"Description": "Oculus Platform SDK features exposed to Blueprints.",
+	"Category": "Online Platform",
+	"CreatedBy": "InnerLoop LLC",
+	"CreatedByURL": "https://www.innerloopllc.com",
+	"DocsURL": "https://www.innerloopllc.com/oculusplatformbp",
+	"MarketplaceURL": "",
+	"SupportURL": "https://discord.gg/AxxpQ8h",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "OculusPlatformBP",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OculusVR",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemOculus",
+			"Enabled": true
+		}
+	]
+}

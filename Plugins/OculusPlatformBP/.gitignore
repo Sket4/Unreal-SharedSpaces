@@ -11,8 +11,19 @@
 *.gch
 *.pch
 
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
 # Fortran module files
 *.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
 
 # Executables
 *.exe
@@ -47,9 +58,7 @@ Build/*/**
 !Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
-!Build/*/**/
 !Build/**/*.ico
-!Build/**/*.png
 
 # Built data for maps
 *_BuiltData.uasset
@@ -64,6 +73,9 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-StoreAssets/
-Plugins/OculusPlatformBP/OculusPlatformBP/Intermediate
-Plugins/OculusPlatformBP/OculusPlatformBP/Binaries/Win64
+# Private Developer Data
+Ignore/*
+
+# Specific names
+!README
+!LICENSE
