@@ -25,7 +25,20 @@
 		},
 		{
 			"Name": "OculusPlatformBP",
+			"Enabled": false
+		},
+		{
+			"Name": "MeshBake",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/278558c1c26643d9b820f30cd8004a12"
+		},
+		{
+			"Name": "ElectraPlayer",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"Android",
+		"WindowsNoEditor"
 	]
 }
