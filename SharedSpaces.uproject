@@ -26,6 +26,10 @@
 		{
 			"Name": "OculusPlatformBP",
 			"Enabled": false
+		},
+		{
+			"Name": "ElectraPlayer",
+			"Enabled": true
 		}
 	]
 }
