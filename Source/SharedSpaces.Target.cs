@@ -10,5 +10,6 @@ public class SharedSpacesTarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.Add("SharedSpaces");
+		BuildEnvironment = TargetBuildEnvironment.Shared;
 	}
 }
