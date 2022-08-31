@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{8CB8E601-438D-F2B6-5B3D-2F9234FA7BDC}",
+	"EngineAssociation": "{23443ED8-4C83-DC79-801C-2AA90388FBA0}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -33,7 +33,7 @@
 		},
 		{
 			"Name": "AtomsUnreal",
-			"Enabled": true,
+			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"Win64",
 				"Android"
