@@ -38,6 +38,11 @@
 				"Win64",
 				"Android"
 			]
+		},
+		{
+			"Name": "WidgetStudio",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/53e65eda8cf343bd89af9017a91ba818"
 		}
 	]
 }
